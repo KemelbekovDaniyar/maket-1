@@ -76,6 +76,7 @@ nav {
   padding: 20px 10px;
   align-items: center;
   justify-content: space-between;
+  height: 70px;
 }
 
 nav ul {
@@ -107,7 +108,11 @@ nav ul li {
 
 .buttons .login {
   color: #A6A8AD;
-  background-color: #121214; 
+  background-color: #121214;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .buttons .signup {
@@ -115,4 +120,46 @@ nav ul li {
   background-color: #fff;
   padding: 10px 20px;
   border-radius: 32px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.buttons .login:hover {
+  color: #fff;
+}
+
+.buttons .signup:hover {
+  color: #fff;
+  background-color: #121214;
+}
+
+.start {
+  background-color: #0033FF;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.start button {
+  background-color: #0033FF;
+  border: none;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-left: 30px;
 }
