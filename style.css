@@ -69,3 +69,50 @@ body {
 .col-12 {
   flex-basis: 100%;
 }
+
+nav {
+  background-color: #121214;
+  display: flex;
+  padding: 20px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #A6A8AD;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #fff;
+}
+
+.buttons .login {
+  color: #A6A8AD;
+  background-color: #121214; 
+}
+
+.buttons .signup {
+  color: #121214;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 32px;
+}
